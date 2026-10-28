@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nexxus Design: agência criativa de design gráfico, branding, web design e produção audiovisual. Conectamos criatividade, estratégia e tecnologia para transformar marcas em referências."
+    />
+    <title>Nexxus - Agência Criativa</title>
+    <link rel="icon" href="./img/LOGO.png" />
+    <meta name="theme-color" content="#070707" />
+    <link rel="stylesheet" href="styles.css?v=31" />
+    <script>
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        document.documentElement.classList.add("is-intro");
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="intro" id="intro">
+      <video
+        class="intro-video"
+        id="introVideo"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+        aria-label="Abertura da Nexxus"
+      >
+        <source
+          src="./img/NX_logo_morphs_into_text_20261023203547.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <img src="./img/LOGO.png" alt="Nexxus Design" class="logo-img" />
+            <span class="logo-wordmark">Nexxus Design</span>
+          </div>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li><a href="#portfolio" class="nav-link">Serviços</a></li>
+            <li><a href="#trabalhos" class="nav-link">Portfólio</a></li>
+            <li><a href="#equipe" class="nav-link">Equipe</a></li>
+            <li><a href="#contato" class="nav-link btn-nav">Contato</a></li>
+          </ul>
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section / Cover -->
+    <section id="inicio" class="hero-cover">
+      <div class="container hero-nft">
+        <div class="hero-nft-panel">
+          <div class="hero-studio-bg" aria-hidden="true"></div>
+          <div class="hero-nft-header">
+            <p class="hero-kicker">Estúdio criativo</p>
+            <h1 class="hero-nft-title">
+              <span class="hero-nft-title-glow">AGÊNCIA NEXXUS DESIGN</span>
+            </h1>
+            <p class="hero-nft-subtitle">
+              Conectamos criatividade, estratégia e tecnologia para transformar
+              marcas em referências. Design gráfico, branding, web design e
+              audiovisual em um só lugar.
+            </p>
+
+            <div class="hero-nft-cta">
+              <a class="hero-nft-btn hero-nft-btn-primary" href="#contato">Solicitar proposta</a>
+              <a class="hero-nft-btn hero-nft-btn-ghost" href="#portfolio">Ver serviços</a>
+            </div>
+          </div>
+
+          <div class="hero-nft-stage">
+            <div class="hero-nft-floor"></div>
+
+            <div class="hero-nft-cards" id="heroCardCarousel">
+              <article class="hero-nft-card" style="--img:url('./img/Criatividade.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+
+              <article class="hero-nft-card" style="--img:url('./img/Identidade.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+
+              <article class="hero-nft-card" style="--img:url('./img/por-tras.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+
+              <article class="hero-nft-card" style="--img:url('./img/Projeto.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+
+              <article class="hero-nft-card" style="--img:url('./img/Sua-Marca.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+
+              <article class="hero-nft-card" style="--img:url('./img/design.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+
+              <article class="hero-nft-card" style="--img:url('./img/video.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+
+              <article class="hero-nft-card" style="--img:url('./img/Branding.png')">
+                <div class="hero-nft-card-media"></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services List Section -->
+    <section id="portfolio" class="services-list">
+      <div class="container">
+        <div class="services-label">NOSSOS SERVIÇOS</div>
+        <h2 class="section-title services-heading">Presença visual com estratégia</h2>
+        <div class="portfolio-tabs" id="portfolioTabs">
+          <button class="portfolio-tab active" data-category="design">DESIGN</button>
+          <button class="portfolio-tab" data-category="videos">VÍDEOS</button>
+          <button class="portfolio-tab" data-category="webdesign">WEBDESIGN</button>
+          <button class="portfolio-tab" data-category="branding">BRANDING</button>
+        </div>
+        
+        <!-- Conteúdo dos Serviços -->
+        <div class="services-content" id="servicesContent">
+          <!-- Serviço DESIGN -->
+          <div class="service-block active" data-category="design">
+            <div class="service-block-image">
+              <img src="./img/design.png" alt="Serviço de Design" onerror="this.style.display='none'; this.parentElement.style.background='#2a2a2a';" />
+            </div>
+            <div class="service-block-content">
+              <h3 class="service-block-title">DESIGN</h3>
+              <p class="service-block-description">
+                Criamos layouts profissionais que comunicam sua marca de forma visual e impactante. 
+                Nosso processo garante identidade visual consistente e designs que convertem.
+              </p>
+              <div class="service-block-process">
+                <h4>Como funciona nosso processo:</h4>
+                <ul>
+                  <li>Briefing detalhado com o cliente</li>
+                  <li>Pesquisa de referências e definição de estilo</li>
+                  <li>Criação do layout inicial</li>
+                  <li>Revisões e ajustes até a aprovação</li>
+                  <li>Entrega dos arquivos finais (formatos e tamanhos solicitados)</li>
+                </ul>
+              </div>
+              <div class="service-block-includes">
+                <h4>O que está incluso:</h4>
+                <ul>
+                  <li>Arquivos em alta resolução</li>
+                  <li>Formatos para redes sociais</li>
+                  <li>Revisões inclusas</li>
+                  <li>Paleta de cores e guia de estilo</li>
+                </ul>
+              </div>
+              <a href="#contato" class="service-block-button">Solicitar Orçamento</a>
+            </div>
+          </div>
+
+          <!-- Serviço VÍDEOS -->
+          <div class="service-block" data-category="videos">
+            <div class="service-block-image">
+              <img src="./img/video.png" alt="Serviço de Vídeos" onerror="this.style.display='none'; this.parentElement.style.background='#2a2a2a';" />
+            </div>
+            <div class="service-block-content">
+              <h3 class="service-block-title">VÍDEOS</h3>
+              <p class="service-block-description">
+                Produzimos e editamos vídeos criativos que engajam e convertem. 
+                Desde Reels para Instagram até vídeos institucionais, criamos conteúdo visual impactante.
+              </p>
+              <div class="service-block-process">
+                <h4>Como funciona nosso processo:</h4>
+                <ul>
+                  <li>Entendimento do objetivo do vídeo (Reels, anúncio, institucional)</li>
+                  <li>Recebimento de materiais ou criação do conteúdo do zero</li>
+                  <li>Edição profissional com ritmo e cortes precisos</li>
+                  <li>Adição de legendas e efeitos visuais</li>
+                  <li>Exportação no padrão ideal para cada plataforma (Instagram, YouTube, etc.)</li>
+                </ul>
+              </div>
+              <div class="service-block-includes">
+                <h4>O que está incluso:</h4>
+                <ul>
+                  <li>Edição profissional completa</li>
+                  <li>Legendas sincronizadas</li>
+                  <li>Efeitos e transições</li>
+                  <li>Exportação em múltiplos formatos</li>
+                </ul>
+              </div>
+              <a href="#contato" class="service-block-button">Solicitar Orçamento</a>
+            </div>
+          </div>
+
+          <!-- Serviço WEBDESIGN -->
+          <div class="service-block" data-category="webdesign">
+            <div class="service-block-image">
+              <img src="./img/Webdesign.png" alt="Serviço de Webdesign" onerror="this.style.display='none'; this.parentElement.style.background='#2a2a2a';" />
+            </div>
+            <div class="service-block-content">
+              <h3 class="service-block-title">WEBDESIGN</h3>
+              <p class="service-block-description">
+                Desenvolvemos sites modernos, responsivos e otimizados. 
+                Combinamos design atrativo com funcionalidade para criar experiências digitais que convertem visitantes em clientes.
+              </p>
+              <div class="service-block-process">
+                <h4>Como funciona nosso processo:</h4>
+                <ul>
+                  <li>Briefing detalhado e definição do objetivo do site</li>
+                  <li>Criação de protótipo e estrutura das páginas</li>
+                  <li>Design responsivo (desktop, tablet e mobile)</li>
+                  <li>Desenvolvimento com HTML, CSS e JavaScript</li>
+                  <li>Publicação e ajustes finais</li>
+                </ul>
+              </div>
+              <div class="service-block-includes">
+                <h4>O que está incluso:</h4>
+                <ul>
+                  <li>Site totalmente responsivo</li>
+                  <li>Otimização para SEO básico</li>
+                  <li>Integração com formulários de contato</li>
+                  <li>Suporte pós-lançamento</li>
+                </ul>
+              </div>
+              <a href="#contato" class="service-block-button">Solicitar Orçamento</a>
+            </div>
+          </div>
+
+          <!-- Serviço BRANDING -->
+          <div class="service-block" data-category="branding">
+            <div class="service-block-image">
+              <img src="./img/Branding.png" alt="Serviço de Branding" onerror="this.style.display='none'; this.parentElement.style.background='#2a2a2a';" />
+            </div>
+            <div class="service-block-content">
+              <h3 class="service-block-title">BRANDING</h3>
+              <p class="service-block-description">
+                Criamos identidades visuais completas que representam sua marca de forma única e memorável. 
+                Desenvolvemos todo o sistema visual da sua marca, do logo às aplicações.
+              </p>
+              <div class="service-block-process">
+                <h4>Como funciona nosso processo:</h4>
+                <ul>
+                  <li>Análise profunda da marca e público-alvo</li>
+                  <li>Desenvolvimento de conceito e referências visuais</li>
+                  <li>Criação do logo e variações</li>
+                  <li>Definição de paleta de cores, tipografia e padrões visuais</li>
+                  <li>Entrega do manual de marca e aplicações em mockups</li>
+                </ul>
+              </div>
+              <div class="service-block-includes">
+                <h4>O que está incluso:</h4>
+                <ul>
+                  <li>Logo em múltiplas variações</li>
+                  <li>Manual de identidade visual</li>
+                  <li>Paleta de cores e tipografia</li>
+                  <li>Mockups e aplicações visuais</li>
+                </ul>
+              </div>
+              <a href="#contato" class="service-block-button">Solicitar Orçamento</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfólio -->
+    <!--
+      Cada trabalho é um <article class="work-card">.
+      - data-category: design | videos | webdesign | branding (usado pelo filtro)
+      - Troque o bloco .work-card-media-empty por <img src="./img/..." alt="..." />
+      - O conteúdo de .work-card-details é o que aparece ao clicar em "Ver projeto"
+      Procure por "PREENCHER" para achar os espaços que faltam conteúdo real.
+    -->
+    <section id="trabalhos" class="work-section" aria-labelledby="work-heading">
+      <div class="container">
+        <header class="work-head">
+          <div class="section-label">PORTFÓLIO</div>
+          <h2 id="work-heading" class="section-title work-title">
+            Trabalhos que já saíram do estúdio
+          </h2>
+          <p class="work-lead">
+            Uma seleção de projetos de design gráfico, vídeos, webdesign e
+            branding desenvolvidos pela Nexxus.
+          </p>
+        </header>
+
+        <div class="work-filters" id="workFilters" role="group" aria-label="Filtrar trabalhos por categoria">
+          <button class="work-filter active" type="button" data-filter="all" aria-pressed="true">TODOS</button>
+          <button class="work-filter" type="button" data-filter="design" aria-pressed="false">DESIGN</button>
+          <button class="work-filter" type="button" data-filter="videos" aria-pressed="false">VÍDEOS</button>
+          <button class="work-filter" type="button" data-filter="webdesign" aria-pressed="false">WEBDESIGN</button>
+          <button class="work-filter" type="button" data-filter="branding" aria-pressed="false">BRANDING</button>
+        </div>
+
+        <div class="work-grid" id="workGrid">
+          <!-- PREENCHER: projeto de Design Gráfico -->
+          <article class="work-card" data-category="design">
+            <div class="work-card-media">
+              <div class="work-card-media-empty">Imagem do projeto</div>
+            </div>
+            <div class="work-card-body">
+              <span class="work-card-category">Design Gráfico</span>
+              <h3 class="work-card-title">[Título do projeto]</h3>
+              <button class="work-card-button" type="button">Ver projeto</button>
+            </div>
+            <div class="work-card-details" hidden>
+              <p>[Descrição do projeto: cliente, o que foi criado e onde foi usado.]</p>
+            </div>
+          </article>
+
+          <!-- PREENCHER: projeto de Vídeo -->
+          <article class="work-card" data-category="videos">
+            <div class="work-card-media">
+              <div class="work-card-media-empty">Imagem do projeto</div>
+            </div>
+            <div class="work-card-body">
+              <span class="work-card-category">Vídeos</span>
+              <h3 class="work-card-title">[Título do projeto]</h3>
+              <button class="work-card-button" type="button">Ver projeto</button>
+            </div>
+            <div class="work-card-details" hidden>
+              <p>[Descrição do projeto: cliente, formato do vídeo e plataforma.]</p>
+            </div>
+          </article>
+
+          <!-- PREENCHER: projeto de Webdesign -->
+          <article class="work-card" data-category="webdesign">
+            <div class="work-card-media">
+              <div class="work-card-media-empty">Imagem do projeto</div>
+            </div>
+            <div class="work-card-body">
+              <span class="work-card-category">Webdesign</span>
+              <h3 class="work-card-title">[Título do projeto]</h3>
+              <button class="work-card-button" type="button">Ver projeto</button>
+            </div>
+            <div class="work-card-details" hidden>
+              <p>[Descrição do projeto: cliente, tipo de site e principais páginas.]</p>
+            </div>
+          </article>
+
+          <!-- PREENCHER: projeto de Branding -->
+          <article class="work-card" data-category="branding">
+            <div class="work-card-media">
+              <div class="work-card-media-empty">Imagem do projeto</div>
+            </div>
+            <div class="work-card-body">
+              <span class="work-card-category">Branding</span>
+              <h3 class="work-card-title">[Título do projeto]</h3>
+              <button class="work-card-button" type="button">Ver projeto</button>
+            </div>
+            <div class="work-card-details" hidden>
+              <p>[Descrição do projeto: cliente, o que a identidade inclui e aplicações.]</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="work-empty" id="workEmpty" hidden>
+          Em breve, novos trabalhos nesta categoria.
+        </p>
+      </div>
+    </section>
+
+    <!-- Janela do projeto (preenchida pelo script.js a partir do .work-card clicado) -->
+    <div class="work-modal" id="workModal" hidden>
+      <div class="work-modal-backdrop" data-close></div>
+      <div
+        class="work-modal-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="workModalTitle"
+        tabindex="-1"
+      >
+        <button class="work-modal-close" type="button" aria-label="Fechar projeto" data-close>×</button>
+        <div class="work-modal-media" id="workModalMedia"></div>
+        <div class="work-modal-body">
+          <span class="work-card-category" id="workModalCategory"></span>
+          <h3 class="work-modal-title" id="workModalTitle"></h3>
+          <div class="work-modal-text" id="workModalText"></div>
+          <a href="#contato" class="work-modal-button" data-close>Quero um projeto assim</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="sobre" class="about-section">
+      <div class="container">
+        <div class="section-label">SOBRE NÓS</div>
+        <h2 class="section-title text-gradient-animated">
+          Mais do que design ou tecnologia
+        </h2>
+        <div class="about-image-container">
+          <img
+            src="./img/empresa_de_marketing_digital_em_sao_paulo.jpg"
+            alt="Foto da Agência Nexxus"
+            class="about-image"
+          />
+        </div>
+        <div class="content-grid">
+          <div class="content-item">
+            <h3 class="content-title">Experiência Visual</h3>
+            <p class="content-text">
+              Criamos identidades visuais que tornam sua empresa única e
+              reconhecível, conectando sua marca ao público de forma autêntica.
+            </p>
+            <a href="#contato" class="content-link">
+              <span>Saiba mais</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 10h10M10 5l5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+          <div class="content-item">
+            <h3 class="content-title">Presença Digital</h3>
+            <p class="content-text">
+              Sites, conteúdos e vídeos que fortalecem seu posicionamento e ajudam
+              sua empresa a conquistar mais autoridade e clientes.
+            </p>
+            <a href="#contato" class="content-link">
+              <span>Saiba mais</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 10h10M10 5l5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+          <div class="content-item">
+            <h3 class="content-title">Tudo em um só lugar</h3>
+            <p class="content-text">
+              Identidade, site, vídeos e conteúdo feitos pela mesma equipe, com
+              uma comunicação consistente do início ao fim.
+            </p>
+            <a href="#contato" class="content-link">
+              <span>Saiba mais</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 10h10M10 5l5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="cta-button-wrapper">
+          <a href="#contato" class="btn-agendar">Agendar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quem está por trás da Nexxus -->
+    <!--
+      Troque cada .team-photo-empty por <img src="./img/..." alt="Nome" />.
+      Para adicionar outro profissional, copie um <article class="team-card">
+      dentro de .team-grid. Se não houver equipe, apague o bloco .team-grid.
+    -->
+    <section id="equipe" class="team-section" aria-labelledby="team-heading">
+      <div class="container">
+        <header class="team-head">
+          <div class="section-label">QUEM ESTÁ POR TRÁS</div>
+          <h2 id="team-heading" class="section-title team-title">
+            As pessoas por trás da Nexxus
+          </h2>
+        </header>
+
+        <!-- PREENCHER: responsável pelo estúdio -->
+        <article class="team-founder">
+          <div class="team-founder-photo">
+            <div class="team-photo-empty">Foto</div>
+          </div>
+          <div class="team-founder-body">
+            <span class="team-role">[Cargo — ex.: Fundador e diretor criativo]</span>
+            <h3 class="team-name">[Nome do responsável]</h3>
+            <p class="team-bio">
+              [Apresentação curta: trajetória, especialidades e o que move o
+              trabalho da Nexxus.]
+            </p>
+            <ul class="team-skills">
+              <li>[Especialidade]</li>
+              <li>[Especialidade]</li>
+              <li>[Especialidade]</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- PREENCHER: profissionais envolvidos (opcional) -->
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-card-photo">
+              <div class="team-photo-empty">Foto</div>
+            </div>
+            <h3 class="team-card-name">[Nome]</h3>
+            <span class="team-role">[Função]</span>
+          </article>
+          <article class="team-card">
+            <div class="team-card-photo">
+              <div class="team-photo-empty">Foto</div>
+            </div>
+            <h3 class="team-card-name">[Nome]</h3>
+            <span class="team-role">[Função]</span>
+          </article>
+          <article class="team-card">
+            <div class="team-card-photo">
+              <div class="team-photo-empty">Foto</div>
+            </div>
+            <h3 class="team-card-name">[Nome]</h3>
+            <span class="team-role">[Função]</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="what-we-do-section">
+      <div class="container">
+        <div class="what-we-do-header">
+          <div class="what-we-do-label">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+              />
+            </svg>
+            <span>O QUE FAZEMOS</span>
+          </div>
+          <div class="what-we-do-title-wrapper">
+            <h2 class="what-we-do-title text-gradient-animated">
+              Criando experiências digitais perfeitas e envolventes
+            </h2>
+            <a href="#portfolio" class="btn-all-services">
+              <span>TODOS OS SERVIÇOS</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 16v-4M12 8h.01M16 12h-4" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="banner-carousels">
+          <!-- Carrossel 1 (1080 x 1350) -->
+          <div class="banner-carousel" data-carousel="top" data-visible="5" data-style="nft">
+            <button class="carousel-nav carousel-prev" type="button" aria-label="Anterior">‹</button>
+            <div class="carousel-viewport" aria-roledescription="carousel">
+              <div class="carousel-track">
+                <div class="carousel-slide is-active">
+                  <img src="./img/CONSTRUÇÃO DE MARCA & ESTRATÉGIA.jpg" alt="Banner 1 (1080x1350)" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="./img/SOLUÇÃO DIGITAL CRIATIVA.jpg" alt="Banner 2 (1080x1350)" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="./img/MARKETING e CAMPANHAS .jpg" alt="Banner 3 (1080x1350)" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="./img/empresa_de_marketing_digital_em_sao_paulo.jpg" alt="Banner 4 (1080x1350)" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="./img/BANNER-DE-CAPA-SITE.png" alt="Banner 5 (1080x1350)" />
+                </div>
+              </div>
+            </div>
+            <button class="carousel-nav carousel-next" type="button" aria-label="Próximo">›</button>
+            <div class="carousel-dots" aria-label="Paginação"></div>
+          </div>
+
+          <!-- Carrossel 2 (1080 x 1920) -->
+          <div class="banner-carousel banner-carousel-tall" data-carousel="bottom" data-visible="3" data-style="nft">
+            <button class="carousel-nav carousel-prev" type="button" aria-label="Anterior">‹</button>
+            <div class="carousel-viewport" aria-roledescription="carousel">
+              <div class="carousel-track">
+                <div class="carousel-slide is-active">
+                  <img src="./img/BANNER-DE-CAPA-SITE.png" alt="Banner 1 (1080x1920)" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="./img/empresa_de_marketing_digital_em_sao_paulo.jpg" alt="Banner 2 (1080x1920)" />
+                </div>
+                <div class="carousel-slide">
+                  <img src="./img/MARKETING e CAMPANHAS .jpg" alt="Banner 3 (1080x1920)" />
+                </div>
+              </div>
+            </div>
+            <button class="carousel-nav carousel-next" type="button" aria-label="Próximo">›</button>
+            <div class="carousel-dots" aria-label="Paginação"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problemas comuns / Soluções Nexxus -->
+    <section class="pain-points-section" aria-labelledby="pain-points-heading">
+      <div class="container">
+        <div class="pain-points-intro">
+          <p class="pain-points-eyebrow">Diagnóstico rápido</p>
+          <h2 id="pain-points-heading" class="pain-points-title">
+            Sua marca transmite o valor que o seu negócio tem?
+          </h2>
+          <p class="pain-points-lead">
+            Uma marca precisa fazer mais do que aparecer: ela precisa transmitir
+            confiança, gerar conexão e ser lembrada. Veja se algum destes sinais
+            acontece com a sua.
+          </p>
+        </div>
+
+        <div class="pain-points-grid">
+          <article class="pain-card">
+            <div class="pain-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+            </div>
+            <div class="pain-card-body">
+              <h3 class="pain-card-title">Identidade sem padrão</h3>
+              <p class="pain-card-text">
+                Logo, cores e posts que não conversam entre si. O público não
+                reconhece a marca, e ela passa despercebida.
+              </p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </div>
+            <div class="pain-card-body">
+              <h3 class="pain-card-title">Visual que não transmite confiança</h3>
+              <p class="pain-card-text">
+                Artes feitas às pressas passam uma imagem amadora, mesmo quando o
+                serviço da sua empresa é excelente.
+              </p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <div class="pain-card-body">
+              <h3 class="pain-card-title">Presença digital fraca</h3>
+              <p class="pain-card-text">
+                Sem site, ou com um site desatualizado, o cliente procura sua empresa
+                e encontra pouca coisa — ou encontra o concorrente.
+              </p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 3v18h18" />
+                <path d="M7 16l4-4 4 4 6-6" />
+              </svg>
+            </div>
+            <div class="pain-card-body">
+              <h3 class="pain-card-title">Fornecedores demais</h3>
+              <p class="pain-card-text">
+                Um faz o logo, outro o site, outro os vídeos. A comunicação perde
+                consistência e você perde tempo coordenando tudo.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="pain-points-cta">
+          <a href="#portfolio" class="pain-points-btn pain-points-btn-primary">Ver como trabalhamos</a>
+          <a href="#contato" class="pain-points-btn pain-points-btn-ghost">Falar com a Nexxus</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section removed -->
+
+    <!-- Business Steps Infographic -->
+    <section class="steps-infographic">
+      <div class="container">
+        <div class="infographic-wrapper">
+          <div class="infographic-center">
+            <div class="center-circle">
+              <span class="center-text-top">Nossos</span>
+              <span class="center-text-main">Processos</span>
+              <span class="center-text-bottom">CRIATIVOS</span>
+              <span class="center-text-small">SOLUÇÕES</span>
+            </div>
+          </div>
+          <div class="steps-container">
+            <div class="step-item step-1">
+              <div class="step-number">01</div>
+              <div class="step-content">
+                <h3 class="step-title">ANÁLISE & ESTRATÉGIA</h3>
+                <p class="step-description">
+                  Entendemos seu negócio, público-alvo e objetivos para criar
+                  uma estratégia digital personalizada.
+                </p>
+              </div>
+              <div class="step-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44L2.5 13.5a2.5 2.5 0 0 1 0-3L7.04 2.06A2.5 2.5 0 0 1 9.5 2z"
+                  />
+                  <path d="M14 2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-4" />
+                  <path d="M10 12h4" />
+                </svg>
+              </div>
+            </div>
+            <div class="step-item step-2">
+              <div class="step-number">02</div>
+              <div class="step-content">
+                <h3 class="step-title">DESIGN & CONCEITO</h3>
+                <p class="step-description">
+                  Desenvolvemos conceitos visuais criativos que refletem a
+                  identidade da sua marca de forma única.
+                </p>
+              </div>
+              <div class="step-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"
+                  />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
+                </svg>
+              </div>
+            </div>
+            <div class="step-item step-3">
+              <div class="step-number">03</div>
+              <div class="step-content">
+                <h3 class="step-title">DESENVOLVIMENTO</h3>
+                <p class="step-description">
+                  Transformamos ideias em realidade com desenvolvimento técnico
+                  de alta qualidade e performance.
+                </p>
+              </div>
+              <div class="step-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M12 1v6m0 6v6M5.64 5.64l4.24 4.24m4.24 4.24l4.24 4.24M1 12h6m6 0h6M5.64 18.36l4.24-4.24m4.24-4.24l4.24-4.24"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="step-item step-4">
+              <div class="step-number">04</div>
+              <div class="step-content">
+                <h3 class="step-title">OTIMIZAÇÃO</h3>
+                <p class="step-description">
+                  Otimizamos cada elemento para máxima performance, conversão e
+                  experiência do usuário.
+                </p>
+              </div>
+              <div class="step-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="12" y1="20" x2="12" y2="10" />
+                  <line x1="18" y1="20" x2="18" y2="4" />
+                  <line x1="6" y1="20" x2="6" y2="16" />
+                </svg>
+              </div>
+            </div>
+            <div class="step-item step-5">
+              <div class="step-number">05</div>
+              <div class="step-content">
+                <h3 class="step-title">LANÇAMENTO</h3>
+                <p class="step-description">
+                  Colocamos seu projeto no ar com estratégias de lançamento que
+                  garantem visibilidade e impacto.
+                </p>
+              </div>
+              <div class="step-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+            </div>
+            <div class="step-item step-6">
+              <div class="step-number">06</div>
+              <div class="step-content">
+                <h3 class="step-title">RESULTADOS</h3>
+                <p class="step-description">
+                  Acompanhamos métricas e resultados, garantindo crescimento
+                  contínuo e sucesso do seu projeto.
+                </p>
+              </div>
+              <div class="step-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="6" />
+                  <circle cx="12" cy="12" r="2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perguntas frequentes -->
+    <section id="faq" class="faq-section" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="faq-layout">
+          <header class="faq-head">
+            <div class="section-label">PERGUNTAS FREQUENTES</div>
+            <h2 id="faq-heading" class="section-title faq-title">
+              Dúvidas sobre a Nexxus
+            </h2>
+          </header>
+
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary>O que a Nexxus faz?</summary>
+              <p>
+                A Nexxus Design é uma agência criativa especializada em design
+                gráfico, web design, branding e produção audiovisual. Mais do que
+                criar artes bonitas, trabalhamos para fortalecer a identidade das
+                marcas e ajudar empresas e empreendedores a conquistar mais
+                autoridade, reconhecimento e clientes.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Quais serviços vocês oferecem?</summary>
+              <p>
+                Design gráfico (banners, posts, carrosséis e materiais
+                publicitários), branding e identidade visual, web design (sites e
+                landing pages responsivos), edição de vídeos e motion design, e
+                posicionamento visual para transmitir profissionalismo,
+                credibilidade e valor.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Como funciona o processo?</summary>
+              <p>
+                Começamos pela análise e pela estratégia do negócio. Depois vêm
+                o conceito visual, o desenvolvimento, a otimização, o lançamento
+                e o acompanhamento dos resultados.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>A Nexxus atende outras agências?</summary>
+              <p>
+                Sim. Ajudamos agências que sofrem com custo alto de criativos,
+                atraso na entrega, falta de mão de obra ou oscilação na
+                qualidade. A ideia é deixar a operação criativa mais previsível.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Como peço um orçamento?</summary>
+              <p>
+                Use o formulário aqui embaixo e conte o que você precisa. Também
+                dá para chamar pelas redes sociais. Retornamos com a melhor rota
+                criativa e técnica para o projeto.
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact-section">
+      <div class="container">
+        <div class="contact-layout">
+          <header class="contact-head">
+            <div class="section-label contact-section-label">CONTATO</div>
+            <h2 class="section-title text-gradient-animated contact-title">
+              Vamos transformar sua marca em referência
+            </h2>
+            <p class="contact-subtitle">
+              Conte o que você precisa — identidade visual, site, vídeos ou
+              conteúdo — e retornamos com a melhor rota criativa e técnica para o
+              seu projeto.
+            </p>
+          </header>
+
+          <div class="contact-panel">
+            <div class="contact-social" aria-label="Redes sociais">
+              <a
+                href="#"
+                class="contact-social-icon"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+                <span>Facebook</span>
+              </a>
+              <a
+                href="#"
+                class="contact-social-icon"
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-1.188-2.03-1.323-.272-.144-.47-.149-.67.15-.197.297-.767.966-1.062 1.164-.296.199-.57.223-.87.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                  />
+                </svg>
+                <span>WhatsApp</span>
+              </a>
+              <a
+                href="#"
+                class="contact-social-icon"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+                <span>Instagram</span>
+              </a>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nome</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+              <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img
+                src="./img/LOGO.png"
+                alt="Nexxus Design"
+                class="footer-logo-img"
+              />
+              <span class="logo-wordmark">Nexxus Design</span>
+            </div>
+            <p class="footer-description">
+              Conectamos criatividade, estratégia e tecnologia para transformar
+              marcas em referências. Design gráfico, branding, web design e
+              audiovisual em um só lugar.
+            </p>
+            <div class="footer-social">
+              <a href="#" class="social-icon" aria-label="Facebook">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="Instagram">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="LinkedIn">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="YouTube">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-column-title">Serviços</h4>
+            <ul class="footer-links-list">
+              <li><a href="#portfolio">Desenvolvimento de sites</a></li>
+              <li><a href="#portfolio">Layouts para redes sociais</a></li>
+              <li><a href="#portfolio">Produção de vídeos</a></li>
+              <li><a href="#portfolio">Design gráfico</a></li>
+              <li><a href="#portfolio">Identidade da marca</a></li>
+              <li><a href="#portfolio">Marketing digital</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-column-title">Apoiar</h4>
+            <ul class="footer-links-list">
+              <li><a href="#contato">Centro de ajuda</a></li>
+              <li><a href="#faq">Perguntas frequentes</a></li>
+              <li><a href="#contato">Suporte a tickets</a></li>
+              <li><a href="#contato">Suporte de vendas</a></li>
+              <li><a href="#contato">Contate-nos</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-column-title">Empresa</h4>
+            <ul class="footer-links-list">
+              <li><a href="#sobre">Sobre nós</a></li>
+              <li><a href="#equipe">Nosso time</a></li>
+              <li><a href="#trabalhos">Portfólio</a></li>
+              <li><a href="#portfolio">Artigos e Notícias</a></li>
+              <li><a href="#contato">Notícias legais</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Nexxus. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
